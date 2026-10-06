@@ -1,21 +1,22 @@
-# 🌊 AquaFHIR: AI-Powered One Health Interoperability
+# 🌊 AquaChain: Decentralized Climate Data Interoperability
 
-**AquaFHIR** is a modern, AI-powered interoperability bridge built for the **OneAquaHealth IEEE Global Hackathon**. It transforms unstructured, natural-language citizen science observations of urban water ecosystems into standardized **HL7 FHIR (Fast Healthcare Interoperability Resources)** risk alerts for public health dashboards.
+**AquaChain** (formerly AquaFHIR) is an AI-powered, decentralized interoperability bridge built for the **IEEE ClimateChain Global Hackathon**. It transforms unstructured citizen science observations of urban ecosystems into standardized, immutable **HL7 FHIR** records anchored to the blockchain.
 
-By bridging the gap between environmental monitoring and human health standards, AquaFHIR brings the **"One Health"** vision to life.
+By bridging the gap between environmental monitoring, artificial intelligence, and decentralized ledgers, AquaChain brings the **"One Health"** vision to life with perfect data transparency.
 
 ## 🚀 Features
 
 * **Citizen Reporting Portal**: A mobile-friendly interface where citizens can report stream conditions using plain, natural language (e.g., "The water looks green and smells like sulfur").
-* **AI NLP Engine**: Automatically analyzes the text, validates claims, and identifies critical environmental conditions (like Cyanobacteria blooms or waste pollution).
-* **HL7 FHIR Interoperability**: Converts subjective environmental text into a standardized digital health `Observation` resource (using LOINC code `92831-7` for Water quality assessment).
-* **Public Health Dashboard**: A command center for city officials to visualize real-time FHIR environmental data, empowering rapid response and resilience planning.
+* **AI NLP Engine**: Automatically analyzes the text, validates claims, and generates standard environmental data payloads (using LOINC code `92831-7` for Water quality assessment).
+* **Blockchain Anchoring**: Cryptographically hashes (SHA-256) the AI-generated FHIR payload and anchors it to a decentralized ledger to ensure the data is immutable and tamper-proof.
+* **Environmental Data Ledger**: A command center for policymakers to visualize real-time, verified environmental data, empowering rapid response and preventing data manipulation in carbon markets.
 
 ## 🛠️ Tech Stack
 
 * **Frontend**: Next.js (React), Tailwind CSS, Lucide Icons
 * **Backend**: Next.js API Routes (Node.js)
-* **AI**: NLP Simulation / LLM Integration
+* **AI**: Fireworks AI (Llama 3 70B Instruct)
+* **Web3**: Cryptographic Hashing (SHA-256), Simulated On-Chain Anchoring
 * **Standards**: HL7 FHIR, LOINC
 
 ## 🏃‍♂️ Getting Started
@@ -24,6 +25,11 @@ First, install the dependencies:
 
 ```bash
 npm install
+```
+
+Set up your environment variables by creating a `.env.local` file:
+```env
+FIREWORKS_API_KEY=your_api_key_here
 ```
 
 Then, run the development server:
@@ -36,9 +42,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## 🎯 Hackathon Tracks Addressed
 
-1. **Track 3: AI-Supported Assessment** - Using AI to validate and standardize citizen observations.
-2. **Track 7: Digital Health Standards** - Proving that FHIR interoperability can be extended to environmental use cases.
-3. **Track 2: Data-to-Insight** - Turning citizen data into actionable One Health dashboards.
+1. **Climate Data & Environmental Monitoring** - Providing a transparent, blockchain-anchored data system for environmental verification.
+2. **AI & Machine Learning** - Using advanced LLMs to parse and structure subjective citizen data into rigorous scientific standards.
 
 ---
-*Built with ❤️ for the IEEE OneAquaHealth Hackathon*
+*Built with ❤️ for the IEEE ClimateChain Global Hackathon*
